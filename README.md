@@ -1,39 +1,25 @@
-# Hi, I'm Zachary Alexander! 👋
+### zachary alexander
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zachary-alexander-43b264219)
-[![Email](https://img.shields.io/badge/Email-zalexander14@icloud.com-blue?style=flat&logo=gmail&logoColor=white)](mailto:zalexander14@icloud.com)
+backend engineer. mostly OCaml and C++ these days, some Go and Python when it makes sense.
 
----
+interested in distributed systems, storage engines, networking internals, and keeping things simple when everyone else wants to make them complicated.
 
-## 🚀 About Me
-Versatile professional with a unique blend of software engineering, digital media, and entrepreneurial experience. Passionate about impactful solutions at the intersection of technology, business, and creativity.
+day to day I work with Linux, think about how data moves through systems, and try to write code that doesn't make me mass the next time I read it.
 
-- 🎓 Software Engineering Student @ ASU (2026)
-- 💡 E-commerce Entrepreneur
-- 🔒 IT & Security Apprentice
-- 🎬 Adobe Creative Suite Specialist
-- 🌎 Multilingual: English, German, Spanish
+#### stuff here
 
-## 🛠️ Skills
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![After Effects](https://img.shields.io/badge/After%20Effects-9999FF?style=flat&logo=adobe-after-effects&logoColor=white)
+most of what's public is small tools or experiments:
 
-## 📂 Featured Projects
+- [ocaml-kv](https://github.com/zachsplat/ocaml-kv) - embedded kv store, TCP interface. nothing fancy but it works
+- [raft-ocaml](https://github.com/zachsplat/raft-ocaml) - raft consensus, mostly complete. leader election + log replication
+- [lsm-engine](https://github.com/zachsplat/lsm-engine) - LSM tree storage engine in C++
+- [pcap-tool](https://github.com/zachsplat/pcap-tool) - packet capture parser, wrote it to debug a weird networking issue at work
+- [dns-resolver](https://github.com/zachsplat/dns-resolver) - recursive DNS resolver in Go
+- [tcp-proxy](https://github.com/zachsplat/tcp-proxy) - reverse proxy, connection pooling, the usual
+- [dotfiles](https://github.com/zachsplat/dotfiles) - neovim + tmux + zsh, nothing special
 
-| Project | Description | Technologies |
-|---------|-------------|--------------|
-| [Portfolio Website](https://github.com/zachsplat/portfolio-website) | Modern, responsive personal site | React, Vite, CSS |
-| [E-commerce Demo](https://github.com/zachsplat/ecommerce-demo) | Sample e-commerce storefront | HTML, CSS, JS |
-| [IoT & Networking](https://github.com/zachsplat/iot-networking) | Scripts & guides for IoT/security | Python, Networking |
-| [Creative Portfolio](https://github.com/zachsplat/creative-portfolio) | Design & video samples | After Effects, Photoshop |
-| [Algorithms](https://github.com/zachsplat/algorithms) | Coding challenges | Python, Java, C++ |
-| [Resume](https://github.com/zachsplat/resume) | Resume in LaTeX, PDF, Markdown | LaTeX |
+some older projects from school/side stuff are still floating around, I'll clean those up eventually.
 
-## 📄 [View My Resume (PDF)](https://github.com/zachsplat/resume/blob/main/Zachary_Alexander_Resume.pdf)
+#### contact
 
----
-
-> "Versatility, creativity, and business sense drive my approach to technology. Let's build something amazing!"
-
----
-
-![Profile Views](https://komarev.com/ghpvc/?username=zachsplat&color=blue)
+zach@zachsplat.dev
