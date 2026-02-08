@@ -1,10 +1,21 @@
 ### zachary alexander
 
-embedded linux and systems engineer. C, C++, OCaml, Go, Python. daily linux user.
+software engineer. typescript, kotlin, python, c/c++, ocaml, go. I like building things across the whole stack.
 
-I work on embedded linux devices, IoT deployments, and systems software. interested in the whole stack from bootloader to userspace -- secure boot, device trees, kernel tuning, distribution packaging, and keeping things running reliably in the field.
+currently working on web apps (react/typescript), android (jetpack compose/kotlin), ML implementations, and embedded linux systems. interested in clean architecture, good UX, and understanding how things work under the hood.
 
-also into distributed systems, storage engines, and networking internals when I get the chance.
+#### web development
+
+- [react-dashboard](https://github.com/zachsplat/react-dashboard) - admin dashboard with React 18, TypeScript, Tailwind, React Query, Zustand, data viz
+
+#### android / kotlin
+
+- [compose-notes](https://github.com/zachsplat/compose-notes) - notes app with Jetpack Compose, Hilt, Room, Coroutines/Flow, Navigation, MVVM
+
+#### machine learning
+
+- [ml-from-scratch](https://github.com/zachsplat/ml-from-scratch) - 10 ML algorithms from scratch in Python/NumPy with math derivations
+- [nn-engine](https://github.com/zachsplat/nn-engine) - neural network library in C++ (tensors, layers, backprop, Adam optimizer)
 
 #### embedded linux / IoT
 
@@ -13,9 +24,7 @@ also into distributed systems, storage engines, and networking internals when I 
 - [rt-linux-bench](https://github.com/zachsplat/rt-linux-bench) - PREEMPT_RT latency benchmarking, CPU isolation, IRQ tuning
 - [device-tree-tools](https://github.com/zachsplat/device-tree-tools) - DT overlay utilities for hardware bring-up (I2C, SPI, CAN)
 - [ota-updater](https://github.com/zachsplat/ota-updater) - A/B partition OTA firmware updates with rollback
-- [initramfs-builder](https://github.com/zachsplat/initramfs-builder) - custom initramfs for embedded devices, dm-verity support
 - [mqtt-gateway](https://github.com/zachsplat/mqtt-gateway) - MQTT gateway bridging modbus/serial sensors to cloud
-- [sysdiag](https://github.com/zachsplat/sysdiag) - system diagnostics toolkit for field debugging
 
 #### systems / networking
 
