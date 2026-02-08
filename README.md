@@ -1,25 +1,28 @@
 ### zachary alexander
 
-backend engineer. mostly OCaml and C++ these days, some Go and Python when it makes sense.
+embedded linux and systems engineer. C, C++, OCaml, Go, Python. daily linux user.
 
-interested in distributed systems, storage engines, networking internals, and keeping things simple when everyone else wants to make them complicated.
+I work on embedded linux devices, IoT deployments, and systems software. interested in the whole stack from bootloader to userspace -- secure boot, device trees, kernel tuning, distribution packaging, and keeping things running reliably in the field.
 
-day to day I work with Linux, think about how data moves through systems, and try to write code that doesn't make me mass the next time I read it.
+also into distributed systems, storage engines, and networking internals when I get the chance.
 
-#### stuff here
+#### embedded linux / IoT
 
-most of what's public is small tools or experiments:
+- [snap-builder](https://github.com/zachsplat/snap-builder) - snap packaging helpers for Ubuntu Core, cross-compilation for ARM64/ARMhf
+- [efi-boot-shim](https://github.com/zachsplat/efi-boot-shim) - UEFI secure boot chain tools, key management, MOK enrollment
+- [rt-linux-bench](https://github.com/zachsplat/rt-linux-bench) - PREEMPT_RT latency benchmarking, CPU isolation, IRQ tuning
+- [device-tree-tools](https://github.com/zachsplat/device-tree-tools) - DT overlay utilities for hardware bring-up (I2C, SPI, CAN)
+- [ota-updater](https://github.com/zachsplat/ota-updater) - A/B partition OTA firmware updates with rollback
+- [initramfs-builder](https://github.com/zachsplat/initramfs-builder) - custom initramfs for embedded devices, dm-verity support
+- [mqtt-gateway](https://github.com/zachsplat/mqtt-gateway) - MQTT gateway bridging modbus/serial sensors to cloud
+- [sysdiag](https://github.com/zachsplat/sysdiag) - system diagnostics toolkit for field debugging
 
-- [ocaml-kv](https://github.com/zachsplat/ocaml-kv) - embedded kv store, TCP interface. nothing fancy but it works
-- [raft-ocaml](https://github.com/zachsplat/raft-ocaml) - raft consensus, mostly complete. leader election + log replication
+#### systems / networking
+
+- [ocaml-kv](https://github.com/zachsplat/ocaml-kv) - embedded kv store with TCP interface in OCaml
+- [raft-ocaml](https://github.com/zachsplat/raft-ocaml) - raft consensus, leader election + log replication
 - [lsm-engine](https://github.com/zachsplat/lsm-engine) - LSM tree storage engine in C++
-- [pcap-tool](https://github.com/zachsplat/pcap-tool) - packet capture parser, wrote it to debug a weird networking issue at work
+- [pcap-tool](https://github.com/zachsplat/pcap-tool) - pcap parser with TCP flow tracking
+- [memalloc](https://github.com/zachsplat/memalloc) - pool/slab allocator in C
 - [dns-resolver](https://github.com/zachsplat/dns-resolver) - recursive DNS resolver in Go
-- [tcp-proxy](https://github.com/zachsplat/tcp-proxy) - reverse proxy, connection pooling, the usual
-- [dotfiles](https://github.com/zachsplat/dotfiles) - neovim + tmux + zsh, nothing special
-
-some older projects from school/side stuff are still floating around, I'll clean those up eventually.
-
-#### contact
-
-zach@zachsplat.dev
+- [tcp-proxy](https://github.com/zachsplat/tcp-proxy) - reverse proxy with connection pooling
