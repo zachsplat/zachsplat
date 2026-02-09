@@ -2,10 +2,12 @@
 
 software engineer. typescript, kotlin, python, c/c++, ocaml, go. I like building things across the whole stack.
 
-currently working on web apps (react/typescript), android (jetpack compose/kotlin), ML implementations, and embedded linux systems. interested in clean architecture, good UX, and understanding how things work under the hood.
+currently building full-stack web apps (next.js/react/typescript), AI-powered tools, android apps (jetpack compose/kotlin), and ML implementations. interested in clean architecture, good UX, accessibility, and making tools that help real people make better decisions.
 
-#### web development
+#### full-stack web / AI
 
+- [invest-platform](https://github.com/zachsplat/invest-platform) - full-stack investing platform with Next.js 14, TypeScript, MongoDB, design system, behavioral guardrails, accessible UI (WCAG 2.1 AA)
+- [ai-advisor](https://github.com/zachsplat/ai-advisor) - AI financial advisor with OpenAI GPT-4, RAG over ChromaDB, behavioral pattern detection, conversation memory
 - [react-dashboard](https://github.com/zachsplat/react-dashboard) - admin dashboard with React 18, TypeScript, Tailwind, React Query, Zustand, data viz
 
 #### android / kotlin
