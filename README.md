@@ -8,6 +8,7 @@ currently building full-stack web apps (next.js/react/typescript), AI-powered to
 
 - [invest-platform](https://github.com/zachsplat/invest-platform) - full-stack investing platform with Next.js 14, TypeScript, MongoDB, design system, behavioral guardrails, accessible UI (WCAG 2.1 AA)
 - [ai-advisor](https://github.com/zachsplat/ai-advisor) - AI financial advisor with OpenAI GPT-4, RAG over ChromaDB, behavioral pattern detection, conversation memory
+- [trading-system](https://github.com/zachsplat/trading-system) - algorithmic trading engine — backtesting, paper/live execution via CCXT, risk management, FastAPI
 - [react-dashboard](https://github.com/zachsplat/react-dashboard) - admin dashboard with React 18, TypeScript, Tailwind, React Query, Zustand, data viz
 
 #### android / kotlin
