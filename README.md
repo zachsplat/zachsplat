@@ -1,15 +1,13 @@
 # Zachary Alexander
 
-Software engineering at ASU, done December 2026. I install and maintain
-camera-security systems on the side, which is where most of my code comes from.
+I run the open-source OpenZeppelin Monitor (1.6.0) and Relayer (1.8.0) for small teams that lost Defender on 2026-07-01: one isolated stack per customer, unmodified upstream images, and the signing key stays in the customer's own AWS KMS, Google Cloud KMS or Turnkey account. I never hold key material.
 
-- [sightline](https://github.com/zachsplat/sightline): tripwire counter for
-  security cameras on Roboflow inference + supervision. Building it turned up
-  [supervision#2578](https://github.com/roboflow/supervision/issues/2578);
-  the fix is in #2579.
+Work in the open:
 
-The rest is private: a market analytics service (Python collector, Flask,
-SQL, systemd on a VPS), a bilingual Astro site, a Flask app that drives a
-thermal label printer through CUPS.
+- [defender-action2plugin](https://github.com/zachsplat/defender-action2plugin): scaffold a Relayer plugin from a retired Defender Action.
+- [relayer-808-repro](https://github.com/zachsplat/relayer-808-repro): reproduction of OpenZeppelin Relayer issue #808 (gas_price_cap leaves a transaction stuck) on 1.8.0.
+- [Relayer 1.4.0 to 1.8.0 upgrade notes](https://zachsplat.github.io/posts/relayer-1-4-to-1-8-upgrade-notes.html): what changed, what to check, what is still open.
+- Troubleshooting notes for Monitor and Relayer: https://zachsplat.github.io
 
-[LinkedIn](https://www.linkedin.com/in/zachary-alexander-43b264219/)
+Not affiliated with OpenZeppelin. No audit, no SLA, one engineer. If your relayer or monitor broke in July, write to me: Telegram @zachary_alexander_dev or zachary_dev@icloud.com.
+
