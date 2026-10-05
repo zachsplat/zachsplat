@@ -1,6 +1,6 @@
 # Zachary Alexander
 
-I run the open-source OpenZeppelin Monitor (1.6.0) and Relayer (1.8.0) for small teams that lost Defender on 2026-07-01: one isolated stack per customer, unmodified upstream images, and the signing key stays in the customer's own AWS KMS, Google Cloud KMS or Turnkey account. I never hold key material.
+I'm setting up hosted OpenZeppelin Monitor (1.6.0) and Relayer (1.8.0) for small teams that lost Defender on 2026-07-01: unmodified upstream images, and the signing key stays in the team's own AWS KMS, Google Cloud KMS or Turnkey account. I never hold key material.
 
 Work in the open:
 
