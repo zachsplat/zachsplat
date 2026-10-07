@@ -10,5 +10,5 @@ Work in the open:
 - [Relayer 1.4.0 to 1.8.0 upgrade notes](https://zachsplat.github.io/posts/relayer-1-4-to-1-8-upgrade-notes.html): what changed, what to check, what is still open.
 - Troubleshooting notes for Monitor and Relayer, each with the exact error string: https://zachsplat.github.io
 
-Not affiliated with OpenZeppelin. No audit, no SLA, one engineer. If your relayer or monitor broke in July, write to me: Telegram @zachary_alexander_dev or zachary_dev@icloud.com.
+Not affiliated with OpenZeppelin. No audit, no SLA, one engineer. If your relayer or monitor broke in July, write to me: [Telegram](https://t.me/zachary_alexander_dev) or zachary_dev@icloud.com.
 
